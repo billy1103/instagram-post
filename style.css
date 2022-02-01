@@ -1,18 +1,61 @@
 body{
     background-color: black;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: auto;
+    width: 40%;
 }
 header{
+   display: flex;
+   justify-content: flex-start;
+   padding: 0 10px 0 10px;
+   align-items: center;
+   gap: 30px;
+  
    
-   
+}
+.corner1 {
+    width: 2%;
+    
+}
+.corner2{
+    width: 90%;
+}
+.edge {
+    width: auto;
+    justify-content: flex-end;
 }
 div{
     background-color: white;
    
 }
-img {
-    width: 100%;
+.content{
+    display: inline-block;
+    padding: 10px;
+    
 }
+img {
+    width: 100%;}
+    
+.reaction{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.before{
+    width: 90%;
+    
+}
+.after{
+    width: 5%;
+}
+
+
+
+
+
+
+
+
